@@ -8,12 +8,6 @@ export default HomeScreen = ()=>{
             <View>
                 <Text>HomeScreen</Text>
             </View>
-            <View>
-                <Text>HomeScreen</Text>
-            </View>
-            <View>
-                <Text>HomeScreen</Text>
-            </View>
         </View>
     )
 }
