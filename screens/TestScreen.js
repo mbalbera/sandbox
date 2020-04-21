@@ -2,14 +2,11 @@ import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 
 
-export default HomeScreen = ()=>{
+export default TestScreen = () => {
     render(
         <View>
             <View>
-                <Text>HomeScreen</Text>
-            </View>
-            <View>
-                <Text onPress={()=>console.log('nav to Test')}>To Test Screen</Text>
+                <Text>TestScreen</Text>
             </View>
         </View>
     )
