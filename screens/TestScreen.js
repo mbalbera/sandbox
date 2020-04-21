@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View, Text,Slider } from 'react-native';
 
 
 export default TestScreen = () => {
@@ -7,6 +7,13 @@ export default TestScreen = () => {
         <View>
             <View>
                 <Text>TestScreen</Text>
+            </View>
+            <View>
+                <Slider
+                    minimumValue={1}
+                    maximumValue={10}
+                    step={0.5}
+                />
             </View>
         </View>
     )
