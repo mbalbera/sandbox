@@ -8,7 +8,14 @@ export default TemplateScreen = () => {
             <View>
                 <Text>TemplateScreen</Text>
             </View>
-            
+            <View>
+                <View>
+                    <Text>Header</Text>
+                </View>
+                <View>
+                    <Text>Body</Text>
+                </View>
+            </View>
         </View>
     )
 }
