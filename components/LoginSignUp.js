@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Text, TextInput, Button } from 'react-native';
+import { StyleSheet, View, Text, TextInput, TouchableOpacity } from 'react-native';
 
 
 class LoginSignUp extends React.Component {
@@ -29,6 +29,11 @@ class LoginSignUp extends React.Component {
                     <View>
                         <Text>Password</Text>
                         <TextInput onChange={(event) => this.allowInput('password', event)} value={this.state.password}/>
+                    </View>
+                    <View>
+                        <TouchableOpacity>
+                            <Text>Submit</Text>
+                        </TouchableOpacity>
                     </View>
                     <View>
                         <View>
