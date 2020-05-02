@@ -1,16 +1,20 @@
 import React from 'react';
-import { StyleSheet, View,  } from 'react-native';
-import Header from '../components/Header'
-import Body from '../components/Body'
+import { StyleSheet, View, Text, } from 'react-native';
 
-export default LoggedIn = () => {
+
+export default Body = () => {
     render(
         <View>
             <View>
-               <Header/>
+                <Text>TemplateScreen</Text>
             </View>
             <View>
-                <Body/>
+                <View>
+                    <Text>Header</Text>
+                </View>
+                <View>
+                    <Text>Body</Text>
+                </View>
             </View>
         </View>
     )
