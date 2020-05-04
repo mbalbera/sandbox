@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Text, TextInput, Button } from 'react-native';
+import { StyleSheet, View, Text, TextInput, } from 'react-native';
 
 
 class SignUp extends React.Component {
@@ -34,6 +34,11 @@ class SignUp extends React.Component {
                     <View>
                         <Text>Repeat Password</Text>
                         <TextInput onChange={(event) => this.allowInput('password2', event)} value={this.state.password2} />
+                    </View>
+                    <View>
+                        <TouchableOpacity>
+                            <Text>Submit</Text>
+                        </TouchableOpacity>
                     </View>
                 </View>
             </View>

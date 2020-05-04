@@ -36,9 +36,9 @@ class LoginSignUp extends React.Component {
                         </TouchableOpacity>
                     </View>
                     <View>
-                        <View>
+                        <TouchableOpacity>
                             <Text>Create New Account</Text>
-                        </View>
+                        </TouchableOpacity>
                     </View>
                 </View>
             </View>
