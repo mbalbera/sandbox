@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, View, Text, TouchableOpacity, FlatList } from 'react-native';
-import TickerModal from '../components/TickerModal'
+import TickerModal from '../components/TickerItems/TickerModal'
 import Modal from 'react-native-modal'
 
 class TestingScreen extends React.Component{

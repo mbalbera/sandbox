@@ -1,12 +1,12 @@
 import React from 'react';
 import { StyleSheet, View, Text, ScrollView } from 'react-native';
-import ArRisk from './TickerItems/arRisk'
-import CompanyInfo from './TickerItems/companyInfo'
-import Events from './TickerItems/events'
-import PriceTrend from './TickerItems/priceTrend'
-import Price from './TickerItems/price'
-import TkHeader from './TickerItems/tkHeader'
-import TestChart from './TickerItems/TestChart'
+import ArRisk from './arRisk'
+import CompanyInfo from './companyInfo'
+import Events from './events'
+import PriceTrend from './priceTrend'
+import Price from './price'
+import TkHeader from './tkHeader'
+import TestChart from './TestChart'
 
 class TickerModal extends React.Component {
     
