@@ -3,14 +3,13 @@ import { StyleSheet, View, Text } from 'react-native';
 import LoggedIn from '../components/LoggedIn'
 import LoginSignUp from '../components/LoginSignUp'
 
-
  class HomeScreen extends React.Component{
     state={
         user: true,
     }
 
-    return(){
-        render(
+    render(){
+        return(
             <View>
                 <View>
                     { this.state.user ? <LoggedIn/> : <LoginSignUp/> }

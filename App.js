@@ -1,13 +1,15 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import HomeScreen from './screens/homeScreen'
-
+// import HomeScreen from './screens/HomeScreen'
+import TestingScreen from './screens/testingScreen';
+console.disableYellowBox = true;
+console.warn = () => { }
 class App extends React.Component {
-  
   render(){
+    let stocks = ["AAPL","TSLA", "PENN", "GE", "MSFT"]
     return (
       <View style={styles.container}>
-        <HomeScreen/>
+        <TestingScreen stocks={stocks}/>
       </View>
     );
   }

@@ -3,19 +3,10 @@ import { StyleSheet, View, Text, } from 'react-native';
 
 
 export default Body = () => {
-    render(
+    return(
+
         <View>
-            <View>
-                <Text>TemplateScreen</Text>
-            </View>
-            <View>
-                <View>
-                    <Text>Header</Text>
-                </View>
-                <View>
-                    <Text>Body</Text>
-                </View>
-            </View>
+            <Text>Body</Text>
         </View>
     )
 }

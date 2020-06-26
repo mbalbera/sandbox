@@ -3,18 +3,10 @@ import { StyleSheet, View, Text, } from 'react-native';
 
 
 export default Header = () => {
-    render(
+    return(
         <View>
             <View>
                 <Text>Header</Text>
-            </View>
-            <View>
-                <View>
-                    <Text>Header</Text>
-                </View>
-                <View>
-                    <Text>Body</Text>
-                </View>
             </View>
         </View>
     )
